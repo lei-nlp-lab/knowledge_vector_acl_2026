@@ -1,0 +1,10 @@
+torch>=2.2.0
+transformers>=4.42.0
+accelerate>=0.30.0
+datasets>=2.19.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+nltk>=3.8.1
+pyyaml>=6.0.1
+tqdm>=4.66.0
+dill>=0.3.8

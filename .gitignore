@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Local environments
+.env
+.venv/
+venv/
+
+# Generated artifacts
+outputs/*
+!outputs/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Large experiment files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npz
+*.csv
+*.jsonl
+*.xlsx

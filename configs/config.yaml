@@ -1,0 +1,23 @@
+model:
+  model_id: ""
+  dtype: float16
+  device_map: auto
+
+generation:
+  layer_idx: 13
+  max_new_tokens: 512
+  batch_size: 16
+  steering_mode: generate
+
+training:
+  seed: 7
+  probe_epochs: 10
+  refine_epochs: 10
+  lr: 0.001
+  lambda_com: 0.1
+  lambda_sub: 0.01
+
+sae:
+  quantile: 0.9
+  top_k: 1
+  eps: 0.000001
