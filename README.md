@@ -6,7 +6,7 @@ This repository contains the code framework for the paper
 ## Code Layout
 
 ```text
-kv_code/
+knowledge_vector_acl_2026/
   configs/
     config.yaml
   scripts/
@@ -52,7 +52,6 @@ dataset/
 ## Setup
 
 ```bash
-cd kv_code
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -151,3 +150,18 @@ PYTHONPATH=src python scripts/run_steering.py \
   --vector outputs/refined/abductive_refined_vector.pt \
   --coeff 1.0
 ```
+
+## Citation
+
+```bibtex
+@article{wang2026knowledge,
+  title={Knowledge Vector of Logical Reasoning in Large Language Models},
+  author={Wang, Zixuan and Lei, Yuanyuan},
+  journal={arXiv preprint arXiv:2604.23877},
+  year={2026}
+}
+```
+
+## License
+
+This project is licensed under the Apache License 2.0.
